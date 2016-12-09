@@ -12,7 +12,7 @@ public class DungeonGame extends JFrame
 	private JPanel playerPanel;
 	private JPanel difficultyPanel;
 	private JPanel monsterPanel;
-	private JPanel inventoryPanel;
+//	private JPanel inventoryPanel;
 	
 	   public DungeonGame()
 	   {
@@ -29,11 +29,11 @@ public class DungeonGame extends JFrame
 	      playerPanel = new playerPanel();
 	      difficultyPanel = new difficultyPanel();
 	      monsterPanel = new monsterPanel();
-	      inventoryPanel = new inventoryPanel();
+//	      inventoryPanel = new inventoryPanel();
 	      add(playerPanel, BorderLayout.WEST);
 	      add(difficultyPanel, BorderLayout.CENTER);
 	      add(monsterPanel,BorderLayout.EAST);
-	      add(inventoryPanel, BorderLayout.SOUTH);
+//	      add(inventoryPanel, BorderLayout.SOUTH);
 	      // Create the button panel.
 	      setVisible(true);
 	      // Add the components to the content pane.
